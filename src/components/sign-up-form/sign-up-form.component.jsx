@@ -49,7 +49,7 @@ const SignUpForm = ()=>{
         const {name, value} = event.target;
         setFormField({...formFields , [name]: value});
     }
-    console.log(formFields);
+    // console.log(formFields);
 
     return (
         <div className="sign-up-container">
