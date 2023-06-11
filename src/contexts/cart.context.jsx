@@ -1,18 +1,24 @@
 import { createContext, useState ,useEffect} from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const addCartItem = (cartItems, productToAdd) => {
+
   const existingCartItem = cartItems.find(
     (cartItem) => cartItem.id === productToAdd.id
   );
 
   if (existingCartItem) {
+    toast.success('Item Added To Cart');
     return cartItems.map((cartItem) =>
       cartItem.id === productToAdd.id
         ? { ...cartItem, quantity: cartItem.quantity + 1 }
         : cartItem
     );
   }
-  return [...cartItems, { ...productToAdd, quantity: 1 }];;
+  toast.success('Item Added To Cart');
+  return [...cartItems, { ...productToAdd, quantity: 1 }];
+
 };
 
 
