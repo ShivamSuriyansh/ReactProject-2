@@ -34,9 +34,9 @@ async function displayRazorpay(amt) {
     key: process.env.KEY,
     currency: data.currency,
     amount: amt,
-    name: "Good Will",
+    name: "Shofiky",
     description: "Wallet Transaction",
-    image: "http://localhost:4000/logo.png",
+    // image: "/logo.png",
     order_id: data.id,
     handler: function (res) {
       alert("PAYMENT ID ::" + res.razorpay_payment_id);
@@ -44,7 +44,7 @@ async function displayRazorpay(amt) {
     },
     prefill: {
       name: "Anirudh Jwala",
-      email: "suryansh@gmail.com",
+      email: "Shivam@gmail.com",
       contact: "9999999999",
     },
   };

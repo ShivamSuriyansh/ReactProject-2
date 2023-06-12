@@ -9,6 +9,9 @@ import {getAuth,
     onAuthStateChanged // returns us back a listener
 } from 'firebase/auth';
 
+import { getDatabase, ref, get, set } from 'firebase/database';
+
+
 import {
     getFirestore,
     doc,//retrives documents inside of our firebase database
@@ -81,3 +84,29 @@ export const signInAuthUserWithEmailAndPassword = async (email, password)=>{
 export const signOutUser = async () => await signOut(auth);
 
 export const onAuthStateChangedListner = (callback) => onAuthStateChanged(auth, callback);// callback is called everytime the auth state changes
+
+
+
+
+// Real time database
+        
+
+export const getProductArray = () => {
+  const database = getDatabase();
+  const databaseRef = ref(database);
+
+  return new Promise((resolve, reject) => {
+    get(databaseRef)
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          const data = snapshot.val();
+          resolve(data);
+        } else {
+          resolve([]); // Return an empty array if no data is available
+        }
+      })
+      .catch((error) => {
+        reject(error);
+      });
+  });
+};

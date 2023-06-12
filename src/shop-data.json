@@ -3,119 +3,119 @@
     "id": 1,
     "name": "Brown Brim",
     "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-    "price": 25,
+    "price": 2511,
     "category": "hats"
   },
   {
     "id": 2,
     "name": "Blue Beanie",
     "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-    "price": 18,
+    "price": 1811,
     "category": "hats"
   },
   {
     "id": 3,
     "name": "Brown Cowboy",
     "imageUrl": "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-    "price": 35,
+    "price": 351,
     "category": "hats"
   },
   {
     "id": 4,
     "name": "Grey Brim",
     "imageUrl": "https://i.ibb.co/RjBLWxB/grey-brim.png",
-    "price": 25,
+    "price": 2115,
     "category": "hats"
   },
   {
     "id": 5,
     "name": "Green Beanie",
     "imageUrl": "https://i.ibb.co/YTjW3vF/green-beanie.png",
-    "price": 18,
+    "price": 918,
     "category": "hats"
   },
   {
     "id": 6,
     "name": "Palm Tree Cap",
     "imageUrl": "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-    "price": 14,
+    "price": 141,
     "category": "hats"
   },
   {
     "id": 7,
     "name": "Red Beanie",
     "imageUrl": "https://i.ibb.co/bLB646Z/red-beanie.png",
-    "price": 18,
+    "price": 1812,
     "category": "hats"
   },
   {
     "id": 8,
     "name": "Wolf Cap",
     "imageUrl": "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-    "price": 14,
+    "price": 1041,
     "category": "hats"
   },
   {
     "id": 9,
     "name": "Blue Snapback",
     "imageUrl": "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-    "price": 16,
+    "price": 1622,
     "category": "hats"
   },
   {
     "id": 10,
     "name": "Bomber Jacket",
     "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
-    "price": 64,
+    "price": 6114,
     "category": "jackets"
   },
   {
     "id": 11,
     "name": "Puffer Jacket",
     "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2020/9/YF/SA/YX/27294756/men-s-stylish-puffer-jacket-1000x1000.jpeg",
-    "price": 84,
+    "price": 8411,
     "category": "jackets"
   },
   {
     "id": 12,
     "name": "Varsity Jacket",
     "imageUrl": "https://www.byrdie.com/thmb/BBMJG8-z7xpIj3ZClWRdRa83UJY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1383020826-875017c317fe44268eb6ac31994e1a16.jpg",
-    "price": 48,
+    "price": 1148,
     "category": "jackets"
   },
   {
     "id": 13,
     "name": "Leather Jacket",
     "imageUrl": "https://img3.exportersindia.com/product_images/bc-full/2021/8/8856297/mens-jackets-1628766815-5939380.jpeg",
-    "price": 104,
+    "price": 1042,
     "category": "jackets"
   },
   {
     "id": 14,
     "name": "Campus Sneaker",
     "imageUrl": "https://cdn.shopify.com/s/files/1/0607/6678/1671/products/OG-03_WHT-MOONLITE_1080x1440_e474055c-0a56-4174-b3e1-1fc12bee66f7.jpg?v=1680928997",
-    "price": 79,
+    "price": 7921,
     "category": "sneakers"
   },
   {
     "id": 15,
     "name": "Ajio Sneaker",
     "imageUrl": "https://assets.ajio.com/medias/sys_master/root/20230103/AL84/63b40b34f997ddfdbd0de6db/-473Wx593H-469180875-black-MODEL.jpg",
-    "price": 39,
+    "price": 3912,
     "category": "sneakers"
   },
   {
     "id": 16,
     "name": "Canvas Sneaker",
     "imageUrl": "https://5.imimg.com/data5/HM/ZA/IY/SELLER-84868583/men-sneakers-shoes-1000x1000.jpg",
-    "price": 49,
+    "price": 4912,
     "category": "sneakers"
   },
   {
     "id": 17,
     "name": "Aj1 Sneaker",
     "imageUrl": "https://i.insider.com/55a966f3371d22c6178b62ed?width=10000",
-    "price": 119,
+    "price": 11911,
     "category": "sneakers"
   }
 ]
