@@ -26,7 +26,7 @@ const Navigation = () => {
             SHOP
           </Link>
           {currUser ? (
-            <span className="nav-link bg-red-400" onClick={signOutUser}>
+            <span className="nav-link" onClick={signOutUser}>
               {" "}
               SIGN OUT
             </span>
